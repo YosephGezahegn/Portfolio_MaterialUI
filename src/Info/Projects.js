@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import ProjCard from '../components/ProjectCard';
 
 const Projects = () => {
-	const [state, setstate] = useState([
+	const [state] = useState([
 		{
 			name: 'Finnknino',
 			site: 'https://cinkinoweb.web.app/',
