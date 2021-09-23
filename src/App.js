@@ -1,14 +1,8 @@
-import React from "react";
-import Grid from "./components/MainGrid";
+import React from 'react';
+import Grid from './components/MainGrid';
 
 const App = () => {
-
-
-  return (
-    <div>
-      <Grid />
-    </div>
-  );
+	return <Grid />;
 };
 
 export default App;
