@@ -84,7 +84,7 @@ export default function BasicTabs() {
 				</Tabs>
 			</Box>
 
-			<Item>
+			<Item sx={{ padding: '1px' }}>
 				<TabPanel value={value} index={0}>
 					<Projects />
 				</TabPanel>

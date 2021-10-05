@@ -43,7 +43,7 @@ export default function ImgMediaCard({ st }) {
 					align="center"
 					gutterBottom
 					variant="h5"
-					component="div"
+					component="span"
 				>
 					Yoseph Alemu
 				</Typography>

@@ -14,7 +14,7 @@ const ProjectCard = ({ proj }) => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			{image === 'movie' && (
-				<Link>
+				<Link href={site} target="_blank">
 					{' '}
 					<CardMedia
 						component="img"
