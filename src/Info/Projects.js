@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import ProjCard from '../components/ProjectCard';
 
 const Projects = () => {
-	const [state, setstate] = useState([
+	const [state] = useState([
 		{
 			name: 'Finnknino',
 			site: 'https://cinkinoweb.web.app/',
@@ -44,9 +44,19 @@ const Projects = () => {
 	console.log(state.map((i) => i.name));
 
 	return (
-		<Grid container item xs={12}>
+		<Grid
+			container
+			xs={12}
+			sx={{
+				background:
+					'linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100))',
+				color: 'white',
+				padding: '5px',
+			}}
+		>
 			{state.map((proj, index) => (
 				<Grid
+					item
 					xs={12}
 					lg={4}
 					md={4}

@@ -1,8 +1,9 @@
 import React from 'react';
-import Grid from './components/MainGrid';
+import MainGrid from './components/MainGrid';
+import './App.css';
 
 const App = () => {
-	return <Grid />;
+	return <MainGrid />;
 };
 
 export default App;
