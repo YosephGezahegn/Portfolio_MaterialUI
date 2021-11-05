@@ -26,7 +26,7 @@ export default function ImgMediaCard({ st }) {
 			<Box sx={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
 				<CardMedia
 					sx={{
-						width: 200,
+						width: 201,
 						borderRadius: '100%',
 						position: 'relative',
 						boxShadow:
