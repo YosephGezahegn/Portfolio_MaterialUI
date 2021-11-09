@@ -34,7 +34,7 @@ export default function ImgMediaCard({ st }) {
 					}}
 					component="img"
 					alt="green iguana"
-					height="200"
+					height="201"
 					image={profilePic}
 				/>
 			</Box>
